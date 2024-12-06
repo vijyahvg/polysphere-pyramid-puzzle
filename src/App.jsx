@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
@@ -157,7 +156,7 @@ function App() {
     });
   };
 
-// Add keyboard event handler for solution navigation
+// keyboard event handler for solution navigation
 React.useEffect(() => {
   const handleKeyPress = (e) => {
     if (!solutionsFound || allSolutions.length === 0) return;
