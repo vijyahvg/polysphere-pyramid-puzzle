@@ -1,4 +1,3 @@
-// src/components/controls/UndoRedoControls.jsx
 import React from 'react';
 
 export function UndoRedoControls({ onUndo, onRedo, canUndo, canRedo }) {
